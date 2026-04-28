@@ -1,40 +1,44 @@
-# MediCare BOEK - Clinic Management System (MCMS)
+🏥 MediCare - Clinic Management System (MCMS)
 
-[cite_start]MediCare BOEK is an automated outpatient center system designed to address the inefficiencies of manual record-keeping[cite: 22]. [cite_start]This project was developed as part of the CSCI 1301 Object Oriented Programming course at the International Islamic University Malaysia[cite: 1, 2].
+MediCare BOEK is an automated outpatient clinic management system developed to eliminate inefficiencies associated with manual record-keeping. This project was created as part of the CSCI 1301 Object-Oriented Programming course at the International Islamic University Malaysia.
 
-## 📋 Project Overview
-[cite_start]The system improves clinic operations by automating patient management, doctor administration, and scheduling[cite: 23]. [cite_start]It transitions the clinic from excessive paperwork to a streamlined digital repository, enhancing both staff efficiency and patient satisfaction[cite: 27, 28].
+📋 Project Overview
 
-## ✨ Key Features
-* [cite_start]**Patient Registration:** User-friendly interface to capture patient details, contact info, and insurance data[cite: 37].
-* [cite_start]**Appointment Scheduling:** Allows receptionists and doctors to manage visits while preventing time-slot conflicts[cite: 39].
-* [cite_start]**Medical Record Management:** Maintains electronic records including vital signs, diagnoses, and treatment history[cite: 42].
-* [cite_start]**Pharmacy & Inventory:** Handles drug registration and stock levels to prevent under-stocking[cite: 26].
-* [cite_start]**Billing:** Automated invoice generation to reduce human error[cite: 27].
+The system enhances clinic operations by digitizing and automating key processes such as patient management, doctor administration, and appointment scheduling. By transitioning from paper-based records to a centralized digital system, MediCare improves workflow efficiency and overall patient satisfaction.
 
-## 🛠️ Technical Stack
-* [cite_start]**Language:** Java [cite: 229]
-* [cite_start]**UI Framework:** JavaFX (FXML) [cite: 45, 66]
-* [cite_start]**Design Pattern:** Object-Oriented Programming (OOP) [cite: 233]
-* [cite_start]**Error Handling:** Java Exception Handling (InputMismatchException) [cite: 214, 229]
+✨ Key Features
+Patient Registration
+A user-friendly interface for capturing patient details, contact information, and insurance data.
+Appointment Scheduling
+Enables receptionists and doctors to manage appointments while avoiding scheduling conflicts.
+Medical Record Management
+Stores and maintains electronic health records, including vital signs, diagnoses, and treatment history.
+Pharmacy & Inventory Management
+Tracks medication records and stock levels to prevent shortages.
+Billing System
+Automatically generates invoices to reduce human errors and improve accuracy.
+🛠️ Technical Stack
+Programming Language: Java
+User Interface: JavaFX (FXML)
+Design Approach: Object-Oriented Programming (OOP)
+Error Handling: Java Exception Handling (e.g., InputMismatchException)
+📊 System Design
 
-## 📊 System Design
-The system architecture is based on a structured class hierarchy including:
-* [cite_start]**Clinic:** Manages the list of patients[cite: 139].
-* [cite_start]**Patient:** Stores personal and medical metadata[cite: 107].
-* [cite_start]**HealthcareProvider:** Manages medical records and prescriptions.
-* [cite_start]**Appointment:** Coordinates timing between patients and doctors.
+The system follows a structured class-based architecture:
 
-
-## 🚀 Getting Started
-1. **Prerequisites:** Ensure you have JDK 11+ and the JavaFX SDK installed.
-2. [cite_start]**Execution:** * Run `ClinicManagementSystem.java` to launch the JavaFX UI[cite: 53].
-   * Use the default credentials: **Username:** `admin` | [cite_start]**Password:** `admin`[cite: 91].
+Clinic
+Manages and stores patient records.
+Patient
+Contains personal details and medical information.
+HealthcareProvider
+Handles diagnoses, prescriptions, and medical records.
+Appointment
+Manages scheduling between patients and healthcare providers.
 
 ## 👥 Contributors (Group 07)
-* [cite_start]Izzat Faiz Bin Sulaiman [cite: 7]
-* [cite_start]Danish Aizzat Bin Shaifulnizam [cite: 7]
-* [cite_start]Ahmad Baihaqi Bin Ahmad Sanusi [cite: 7]
-* [cite_start]Ilham Iqbal Ali Bin Md Ghazali [cite: 7]
+Izzat Faiz Bin Sulaiman
+Danish Aizzat Bin Shaifulnizam
+Ahmad Baihaqi Bin Ahmad Sanusi
+Ilham Iqbal Ali Bin Md Ghazali
 
-**Lecturer:** Assoc. [cite_start]Prof. Dr. Dini Oktarina Dwi Handayani [cite: 9]
+**Lecturer:** Assoc. Prof. Dr. Dini Oktarina Dwi Handayani 
