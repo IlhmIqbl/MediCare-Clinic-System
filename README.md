@@ -1,6 +1,6 @@
 🏥 MediCare - Clinic Management System (MCMS)
 
-MediCare BOEK is an automated outpatient clinic management system developed to eliminate inefficiencies associated with manual record-keeping. This project was created as part of the CSCI 1301 Object-Oriented Programming course at the International Islamic University Malaysia.
+MediCare is an automated outpatient clinic management system developed to eliminate inefficiencies associated with manual record-keeping. This project was created as part of the CSCI 1301 Object-Oriented Programming course at the International Islamic University Malaysia.
 
 📋 Project Overview
 
